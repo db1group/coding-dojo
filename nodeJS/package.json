@@ -1,0 +1,23 @@
+{
+  "name": "node_babel_jest",
+  "version": "1.0.0",
+  "description": "Basic setup for NodeJS Dojo",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node ./src/index.js",
+    "compile": "babel src --out-dir .compiled --source-maps --watch",
+    "test": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "jest": "^24.9.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+ }
+}
