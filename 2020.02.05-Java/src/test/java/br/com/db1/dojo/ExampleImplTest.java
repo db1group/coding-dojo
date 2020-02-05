@@ -1,4 +1,4 @@
-package br.com.omni.dojo;
+package br.com.db1.dojo;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

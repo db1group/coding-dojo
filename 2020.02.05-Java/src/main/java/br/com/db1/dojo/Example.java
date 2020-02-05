@@ -1,4 +1,4 @@
-package br.com.omni.dojo;
+package br.com.db1.dojo;
 
 public interface Example {
 
